@@ -1,0 +1,24 @@
+h1 {
+    background-color: red;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#wordInput {
+    width: 500px;
+    height: 45px;
+    color: red;
+}
+
+#submitBtn {
+    width: 100px;
+    height: 40px;
+    background-color: darkgray;
+    color: blue;
+}
+
+.btns {
+    background-color: lightskyblue;
+    color: darkmagenta;
+}
