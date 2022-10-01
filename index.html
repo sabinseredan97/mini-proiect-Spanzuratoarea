@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="hangManStyle.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+        <title>The HangMan Game</title>
+    </head>
+
+    <body>
+        <h1>The HangMan</h1>
+        <div class="text-center">
+            <div class="container">
+                <div class="float-right">Wrong guesses: <span id="mistakes">0</span> out of <span id="tries"></span> </div>
+                <input
+                    id="wordInput"
+                    type="text"
+                    placeholder="Type your word here"
+                >
+                <button id="submitBtn">Submit</button>
+                <h3 id="guessed-letters"></h3>
+                <h5 id="endGameMessage"></h5>
+            </div>
+            <div class="images">
+                <img id="hangmanImg" src="./images/0.jpg" alt="">
+            </div>
+            <div id="letterBtns"></div>
+        </div>
+        <script src="hangManMain.js"></script>
+    </body>
+</html>
